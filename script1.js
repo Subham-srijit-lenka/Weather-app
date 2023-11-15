@@ -23,15 +23,12 @@ async function checkWeather(city){
     }
 
     if(weather_data.cod === `404`){
-        // location_not_found.style.display = "flex";
         weather_body.style.display = "none";
         console.log("error");
         return;
     }
 
     console.log("run");
-    // location_not_found.style.display = "none";
-    // weather_body.style.display = "flex";
     temperature.innerHTML = `${weather_data.current.temp_c}°C`;
     cityName.innerHTML = `${weather_data.location.name}`
 
