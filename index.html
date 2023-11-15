@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="search-bar">
+            <input type="text" name="search" id="search" placeholder="Search a place" />
+            <button id="search-button">
+                <img src="icons8-search-24.png" alt=" " srcset="" />
+            </button>
+        </div>
+        <div class="temp-image">
+            <div class="image">
+                <img src="clear-sky.png" alt="clear-sky" srcset="" />
+            </div>
+            <div class="name-temp">
+                <h1 class="temp">1°c</h1>
+                <h2 class="name">Berlin</h2>
+            </div>
+        </div>
+        <div class="more-info">
+            <div class="humid">
+                <div class="represent"> 
+                <img src="humidity_percentage_FILL0_wght400_GRAD0_opsz24.png" alt="" srcset="">
+                <h5 id="humidity">90%</h5>
+            </div>
+                <p>Humidity</p>
+            </div>
+            <div class="wind">
+                <div class="represent">
+                <img src="air_FILL0_wght400_GRAD0_opsz24.png" alt="windspeed" srcset="" />
+                <h5 id="wind-speed">2.68Km/h</h5>
+            </div>
+                <p>Windspeed</p>
+            </div>
+        </div>
+    </div>
+    <script src="script1.js"></script>
+</body>
+
+</html>
